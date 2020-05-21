@@ -1,5 +1,19 @@
+@font-face {
+  font-family: Lifted-Sans;
+  src: url(../fonts/Lifted-Sans.woff);
+}
+
+@font-face {
+  font-family: Lifted-Serif;
+  src: url(../fonts/Lifted-Serif.woff);
+}
+
 body {
   padding-top: 134px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Lifted-Sans, Helvetica, sans-serif;
 }
 
 img {
@@ -20,10 +34,25 @@ img {
   -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
 }
 
+#mainContainer {
+  background: lavender;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar a {
+  font-family: Lifted-Sans, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
 .starter-template {
   padding: 40px 15px;
-  text-align: center;
 }
+
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -35,8 +64,4 @@ img {
 
 .logo {
   color: white;
-} 
-
-.logo img {
-  width:274px;
 }
