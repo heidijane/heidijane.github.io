@@ -78,3 +78,8 @@ img {
   margin: 0 1em 1em 0;
   padding: 1em;
 }
+
+.carousel-item {
+  height: 50vh;
+  object-fit: cover;
+}
