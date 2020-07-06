@@ -13,3 +13,8 @@ $(document).ready(function () {
         e.preventDefault();
     });
 });
+
+document.querySelector("#resumeButton").addEventListener("click", () => {
+    window.open(
+        "heidi-sprouse_resume.pdf", "_blank");
+})
