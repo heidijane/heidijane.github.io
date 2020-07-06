@@ -38,6 +38,10 @@ img {
   /* IE8+           */
 }
 
+.lead {
+  font-size: 1.25em;
+}
+
 .bg-dark {
   background-color: #3c3742 !important;
 }
@@ -394,4 +398,25 @@ hr {
   border-right: 0;
   margin-top: -10px;
   margin-right: -10px;
+}
+
+@media only screen and (max-width: 450px) {
+  .display-1 {
+    font-size: 3.5rem !important;
+  }
+  .display-2 {
+    font-size: 3rem !important;
+  }
+  .display-3 {
+    font-size: 2.5rem !important;
+  }
+  .display-4 {
+    font-size: 2rem !important;
+  }
+  #headshot {
+    width: 250px;
+    clip-path: circle(40% at 50% 105px);
+    filter: grayscale(100%);
+    margin-bottom: -50px;
+  }
 }
